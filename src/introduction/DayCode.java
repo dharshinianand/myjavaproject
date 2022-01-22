@@ -3,12 +3,8 @@ package introduction;
 public class DayCode {
 int Total1;
 
- 
-
 public DayCode(int Total1) {
-
 	this.Total1 = Total1;
-	
 	if(Total1 == 0){
 		  System.out.println("You born on Sunday");
 	  }
