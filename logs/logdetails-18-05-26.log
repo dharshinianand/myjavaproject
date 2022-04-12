@@ -1,0 +1,6 @@
+18:05:02 [main] INFO  base.log - Element has to be selected is: Fruit Chocolate Cake
+18:05:05 [main] INFO  base.log - Clicked[[FirefoxDriver: firefox on WINDOWS (16655c16-c6c5-44f1-89f9-062c76a87059)] -> partial link text: Fruit Chocolate Cake]
+18:05:05 [main] INFO  base.log - Particular Cake is clicked
+18:05:05 [main] INFO  base.log - Switched the handle
+18:05:19 [main] INFO  base.log - Particular amount cake was clicked
+18:05:22 [main] INFO  base.log - pincode available [[[FirefoxDriver: firefox on WINDOWS (16655c16-c6c5-44f1-89f9-062c76a87059)] -> xpath: //li[@class='react-autosuggest__suggestion']//span], [[FirefoxDriver: firefox on WINDOWS (16655c16-c6c5-44f1-89f9-062c76a87059)] -> xpath: //li[@class='react-autosuggest__suggestion']//span], [[FirefoxDriver: firefox on WINDOWS (16655c16-c6c5-44f1-89f9-062c76a87059)] -> xpath: //li[@class='react-autosuggest__suggestion']//span]]

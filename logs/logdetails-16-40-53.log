@@ -1,0 +1,20 @@
+16:38:49 [main] INFO  TestCase.testcake - Searching for the product
+16:38:53 [main] INFO  TestCase.testcake - Searching for the product
+16:38:53 [main] INFO  TestCase.testcake - Browser is started
+16:38:53 [main] INFO  TestCase.testcake - Total number of cakes is 0
+16:38:53 [main] INFO  base.Log - chocolate cake list []
+16:38:56 [main] INFO  TestCase.testcake - Browser is started
+16:38:56 [main] INFO  TestCase.testcake - Total number of cakes is 0
+16:38:56 [main] INFO  base.Log - chocolate cake list []
+16:39:04 [main] INFO  TestCase.testcake - Searching for the product
+16:39:08 [main] INFO  TestCase.testcake - Browser is started
+16:39:08 [main] INFO  TestCase.testcake - Total number of cakes is 0
+16:39:08 [main] INFO  base.Log - chocolate cake list []
+16:39:33 [main] INFO  TestCase.testcake - Searching for the product
+16:39:36 [main] INFO  TestCase.testcake - Browser is started
+16:39:36 [main] INFO  TestCase.testcake - Total number of cakes is 0
+16:39:36 [main] INFO  base.Log - chocolate cake list []
+16:39:37 [main] INFO  TestCase.testcake - Searching for the product
+16:39:40 [main] INFO  TestCase.testcake - Browser is started
+16:39:40 [main] INFO  TestCase.testcake - Total number of cakes is 0
+16:39:40 [main] INFO  base.Log - chocolate cake list []

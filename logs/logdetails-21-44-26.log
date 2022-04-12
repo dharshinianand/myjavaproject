@@ -1,0 +1,9 @@
+18:07:37 [main] INFO  base.log - Zooming out the page
+18:07:37 [main] INFO  base.log - Clicking on CartButton
+18:07:37 [main] INFO  base.log - Closing the Addons
+18:07:38 [main] INFO  base.log - Clicking on Cart CeckoutButton
+18:07:41 [main] INFO  base.log - Entered into shipping Details
+18:07:41 [main] INFO  base.log - Entered into gmail ID
+18:07:43 [main] INFO  base.log - Entered into gmail password
+18:07:45 [main] INFO  base.log - Entered into Checkout Page
+18:07:47 [main] INFO  base.log - Proceed to checkout has been clicked

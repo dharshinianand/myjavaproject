@@ -1,0 +1,7 @@
+17:40:08 [main] INFO  base.log - Element has to be selected is: Fruit Chocolate Cake
+17:40:10 [main] INFO  base.log - Clicked[[FirefoxDriver: firefox on WINDOWS (c95e11fe-ecce-47bd-909b-ad25dda53e46)] -> partial link text: Fruit Chocolate Cake]
+17:40:10 [main] INFO  base.log - Particular Cake is clicked
+17:51:37 [main] INFO  base.log - Browser Launched Succesfully
+17:51:48 [main] INFO  base.log - Url Launched Succesfully
+17:51:48 [main] INFO  base.log - Searching for the product
+17:51:51 [main] INFO  base.log - Entered the Search product

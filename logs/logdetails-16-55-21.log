@@ -1,0 +1,8 @@
+16:40:53 [main] INFO  TestCase.testcake - Searching for the product
+16:40:57 [main] INFO  TestCase.testcake - Browser is started
+16:40:57 [main] INFO  TestCase.testcake - Total number of cakes is 0
+16:40:57 [main] INFO  base.Log - chocolate cake list []
+16:45:55 [main] INFO  TestCase.testcake - Searching for the product
+16:45:58 [main] INFO  TestCase.testcake - Browser is started
+16:45:58 [main] INFO  TestCase.testcake - Total number of cakes is 40
+16:45:58 [main] INFO  base.Log - chocolate cake list [Colourful Flowers Chocolate Cake, Valentine Hearts Chocolate Cup Cakes, I Love You Fondant Chocolate Cup Cakes, 80 Red & Light Pink Roses Box & Chocolate Cake, Exotic Chocolate Cream Cake, Chocolate Cream Cake, Happy Family Chocolate Photo Cake, Tasty Truffle Rich Chocolate Photo Cake for Dad, Decorated Chocolate Photo Cake, Rich Chocolate Splash Cake, Fruit Chocolate Cake, Special Chocolate Cake, Heavenly Chocolate Overload Cake, Gems Decorated Chocolate Cake, Chocolate Cake]

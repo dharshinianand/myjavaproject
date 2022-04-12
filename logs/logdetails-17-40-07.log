@@ -1,0 +1,9 @@
+17:29:14 [main] INFO  base.log - Searching for the product
+17:29:17 [main] INFO  base.log - Browser is started
+17:29:17 [main] INFO  base.log - Total number of cakes is 0
+17:29:18 [main] INFO  base.log - chocolate cake list []
+17:39:55 [main] INFO  base.log - Browser Launched Succesfully
+17:40:02 [main] INFO  base.log - Url Launched Succesfully
+17:40:02 [main] INFO  base.log - Searching for the product
+17:40:06 [main] INFO  base.log - Entered the Search product
+17:40:06 [main] INFO  base.log - Total number of cakes is 40

@@ -1,0 +1,8 @@
+PageObject\CakePageObject.class
+TestCase\CheckoutProduct.class
+base\log.class
+base\Browser.class
+PageObject\CheckoutPageObject.class
+TestCase\testcake.class
+TestCase\CheckoutTestcakes.class
+TestCase\ChocolateCake.class

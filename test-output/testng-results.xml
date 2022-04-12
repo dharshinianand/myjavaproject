@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-12T21:49:49 IST" name="Suite" finished-at="2022-04-12T21:50:22 IST" duration-ms="32633">
+    <groups>
+    </groups>
+    <test started-at="2022-04-12T21:49:49 IST" name="Test" finished-at="2022-04-12T21:50:22 IST" duration-ms="32633">
+      <class name="TestCase.CheckoutTestcakes">
+        <test-method signature="shippingDetails()[pri:2, instance:TestCase.CheckoutTestcakes@76ba13c]" started-at="2022-04-12T21:50:22 IST" name="shippingDetails" finished-at="2022-04-12T21:50:22 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DHARSHINI', ip: '192.168.225.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [35da2dfd-8404-4e94-9757-92d00e0f0db3, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:debuggerAddress: localhost:58364, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2576, moz:profile: C:\Users\manan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58364/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 35da2dfd-8404-4e94-9757-92d00e0f0db3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DHARSHINI', ip: '192.168.225.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [35da2dfd-8404-4e94-9757-92d00e0f0db3, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:debuggerAddress: localhost:58364, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2576, moz:profile: C:\Users\manan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58364/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 35da2dfd-8404-4e94-9757-92d00e0f0db3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:984)
+at base.Browser.openBrowser(Browser.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingDetails -->
+      </class> <!-- TestCase.CheckoutTestcakes -->
+      <class name="TestCase.testcake">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestCase.testcake@32f0fba8]" started-at="2022-04-12T21:49:49 IST" name="openBrowser" finished-at="2022-04-12T21:50:22 IST" duration-ms="32563" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DHARSHINI', ip: '192.168.225.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [35da2dfd-8404-4e94-9757-92d00e0f0db3, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:debuggerAddress: localhost:58364, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2576, moz:profile: C:\Users\manan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58364/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 35da2dfd-8404-4e94-9757-92d00e0f0db3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DHARSHINI', ip: '192.168.225.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [35da2dfd-8404-4e94-9757-92d00e0f0db3, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:debuggerAddress: localhost:58364, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2576, moz:profile: C:\Users\manan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58364/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 35da2dfd-8404-4e94-9757-92d00e0f0db3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:984)
+at base.Browser.openBrowser(Browser.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="Cake()[pri:1, instance:TestCase.testcake@32f0fba8]" started-at="2022-04-12T21:50:22 IST" name="Cake" finished-at="2022-04-12T21:50:22 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DHARSHINI', ip: '192.168.225.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [35da2dfd-8404-4e94-9757-92d00e0f0db3, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:debuggerAddress: localhost:58364, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2576, moz:profile: C:\Users\manan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58364/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 35da2dfd-8404-4e94-9757-92d00e0f0db3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DHARSHINI', ip: '192.168.225.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [35da2dfd-8404-4e94-9757-92d00e0f0db3, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 99.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220330194208, moz:debuggerAddress: localhost:58364, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 2576, moz:profile: C:\Users\manan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58364/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 35da2dfd-8404-4e94-9757-92d00e0f0db3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:613)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:984)
+at base.Browser.openBrowser(Browser.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:645)
+at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cake -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCase.testcake@32f0fba8]" started-at="2022-04-12T21:50:22 IST" name="closeBrowser" finished-at="2022-04-12T21:50:22 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCase.testcake -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
