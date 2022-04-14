@@ -3,13 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="TestCase.testcake">
-        <methods>
-          <include name="openBrowser"/>
-          <include name="Cake"/>
-          <include name="closeBrowser"/>
-        </methods>
-      </class> <!-- TestCase.testcake -->
       <class name="TestCase.CheckoutTestcakes">
         <methods>
           <include name="shippingDetails"/>
@@ -17,6 +10,13 @@
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- TestCase.CheckoutTestcakes -->
+      <class name="TestCase.testcake">
+        <methods>
+          <include name="Cake"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestCase.testcake -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

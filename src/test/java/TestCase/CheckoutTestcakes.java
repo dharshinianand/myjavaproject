@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import Screenshot.TakeShots;
 import base.Browser;
 import base.log;
 
@@ -20,20 +21,23 @@ public class CheckoutTestcakes extends Browser {
 		wait1 = new WebDriverWait(driver, Duration.ofSeconds(60));
 		log.logger.info("Entered into shipping Details");
 		driver.findElement(By.cssSelector("#standard-basic")).sendKeys("dharshinichandran13@gmail.com");
+		TakeShots.captureScreenshots(driver, "Entering mail Id");
 		log.logger.info("Entered into gmail ID");
-		driver.findElement(By.xpath("//button[@title='Login to continue']")).click();
 		Thread.sleep(2000L);
 		driver.findElement(By.cssSelector("#standard-adornment-password")).sendKeys("Asd123");
+		TakeShots.captureScreenshots(driver, "Entering mail password");
 		log.logger.info("Entered into gmail password");
 		driver.findElement(By.xpath("//button[@title='Login to continue']")).click();
 		Thread.sleep(2000L);
 		log.logger.info("Entered into Checkout Page");
+		TakeShots.captureScreenshots(driver, "Checkout page");
 
 		JavascriptExecutor jse2 = (JavascriptExecutor)driver;
 		jse2.executeScript("window.scrollBy(0,400)","");
 		Thread.sleep(1000L);
 		driver.findElement(By.xpath("//button[@title='Proceed To Checkout']")).click();
 		log.logger.info("Proceed to checkout has been clicked");
+		TakeShots.captureScreenshots(driver, "Proceed to Checkout");
 
 		Thread.sleep(3000L);
 		JavascriptExecutor jse3 = (JavascriptExecutor)driver;

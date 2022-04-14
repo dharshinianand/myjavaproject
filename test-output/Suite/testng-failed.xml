@@ -12,8 +12,8 @@
       </class> <!-- TestCase.CheckoutTestcakes -->
       <class name="TestCase.testcake">
         <methods>
-          <include name="openBrowser"/>
           <include name="Cake"/>
+          <include name="openBrowser"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- TestCase.testcake -->
